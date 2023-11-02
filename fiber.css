@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#header{
+    background-color: #232122;
+}
+.container{
+    max-width: 960px;
+    height: 50px;
+    margin: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+}
+#logo img{
+    height: 50px;
+    width: 300px;
+}
+.main-menu{
+    display: flex;
+    list-style: none;
+    padding:0;
+    margin: 0;
+}
+.main-menu li{
+    position: relative;
+}
+.main-menu li a{
+    color: #f8f8f8;
+    text-decoration: none;
+    display: block;
+    padding: 18px 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.main-menu li:hover ul.sub-menu{
+    display: block;
+}
+.main-menu ul.sub-menu{
+    position: absolute;
+    background-color:#232122;
+    padding: 15px 0;
+    list-style: none;
+    display: none;
+}
+.main-menu ul.sub-menu a{
+    padding: 8px 15px;
+    border-bottom:1px solid white;
+    width: 200px;
+}
+.main-menu ul.sub-menu li:hover a{
+    border-bottom:3px solid white;
+}
+.main-menu ul.sub-menu li:last-child a{
+    border: none;
+}
+#wp2{
+    height: 1600px;
+    background-color: #dfdfd2;
+}
+#wp2 h1{
+    text-align: center;
+    padding: 50px;
+    border-bottom: 1px solid black;
+    margin: 0 100px;    
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.blue{
+    padding: 0 200px;
+    background-color: white;
+}
+.container2{
+    padding-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    height: 1000px;
+}
+#Product{
+    height: 500px;
+    width: 500px;
+    background-color: #232122;
+    margin-left: 280px;
+    border-radius: 10px;
+}
+#Product img{
+    height: 500px;
+    width: 500px;
+    border: 5px solid #575355 ;
+    border-radius: 10px;
+    
+}
+#Product h1{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 30px;
+    color: #584fda;
+}
+#Product h2{
+    text-align: center;
+    background-color: black;
+    color: #f8f8f8;
+    margin: 5px 50px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius:5px ;
+}
+a{
+    text-decoration: none;
+}
+ h2 a:hover{
+    background-color: wheat;
+}
+.size{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    color:#584fda ;
+}
+.size span{
+    padding: 2px 10px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    margin: 0 20px;
+}
+.color1 span{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+.buynow{
+    margin-top: 30px;
+    text-align: center;
+}
+button:hover{
+    background-color: black;
+}
+.buynow button{
+    background-color: white;
+    border: none;
+    outline: none;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 20px;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+}
+.buynow button:hover{
+    background-color: #584fda;
+}
+.buynow{
+
+    border-bottom: 1px solid black;
+}
+li{
+    list-style: none;
+}
+.Mota{
+    width: 600px;
+}
+.Mota h3{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+    font-weight:900;
+    color: #23205b;
+}
+.Mota p{
+    font-weight:300;
+    font-size: 20px;
+    padding:10px ;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.Mota li{
+    font-weight:300;
+    font-size: 20px;
+    padding:5px ;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.footer{
+    padding: 100px 15%;
+    background-color: #333;
+    color: #efefef;
+    display: flex;
+}
+.footer div{
+    text-align: center;
+}
+.col2{
+    flex-grow: 2;
+}
+.footer div h3{
+    font-weight: 300;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    font-size: 30px;
+}
+.col1 a{
+    display: block;
+    text-decoration: none;
+    color: #efefef;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+form input{
+    width: 400px;
+    height: 45px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    outline: none;
+}
+form button{
+    background: transparent;
+    border:2px solid #fff ;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.col3 h3,p{
+    font-size: 20px;
+}

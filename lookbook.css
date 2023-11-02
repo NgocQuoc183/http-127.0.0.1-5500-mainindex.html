@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#header{
+    background-color: #232122;
+}
+.container{
+    max-width: 960px;
+    height: 50px;
+    margin: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+}
+#logo img{
+    height: 50px;
+    width: 300px;
+}
+.main-menu{
+    display: flex;
+    list-style: none;
+    padding:0;
+    margin: 0;
+}
+.main-menu li{
+    position: relative;
+}
+.main-menu li a{
+    color: #f8f8f8;
+    text-decoration: none;
+    display: block;
+    padding: 18px 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.main-menu li:hover ul.sub-menu{
+    display: block;
+}
+.main-menu ul.sub-menu{
+    position: absolute;
+    background-color:#232122;
+    padding: 15px 0;
+    list-style: none;
+    display: none;
+}
+.main-menu ul.sub-menu a{
+    padding: 8px 15px;
+    border-bottom:1px solid white;
+    width: 200px;
+}
+.main-menu ul.sub-menu li:hover a{
+    border-bottom:3px solid white;
+}
+.main-menu ul.sub-menu li:last-child a{
+    border: none;
+}
+.wp2{
+    height: 1600px;
+    background-color: beige;
+
+}
+.main-cmt{
+    height: 150px;
+    border-bottom: 1px solid black;
+    margin: 0 300px;
+}
+.main-cmt h1{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 50px;
+}
+.items{
+    margin-right: 5px;
+    width: 300px;
+    height: 634px;
+    margin:20px 80px;
+    float: left;
+}
+.name{
+    margin-top: 20px;
+    float: left;
+    width: 452px;
+    margin-right:0;
+}
+.name p{
+    padding-top: 10px;
+    font-size: 20px;
+    width: 380px;
+}
+.More{
+    padding-top: 20px;
+}
+.img img{
+    width: 384px;
+    height: 450px;
+}
+.More{
+    font-size: 20px;
+}
+a{
+    
+    color: black;
+}
+.footer{
+    padding: 100px 15%;
+    background-color: #333;
+    color: #efefef;
+    display: flex;
+}
+.footer div{
+    text-align: center;
+}
+.col2{
+    flex-grow: 2;
+}
+.footer div h3{
+    font-weight: 300;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    font-size: 30px;
+}
+.col1 a{
+    display: block;
+    text-decoration: none;
+    color: #efefef;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+form input{
+    width: 400px;
+    height: 45px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    outline: none;
+}
+form button{
+    background: transparent;
+    border:2px solid #fff ;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.col3 h3,p{
+    font-size: 20px;
+}
